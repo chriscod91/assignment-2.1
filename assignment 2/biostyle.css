@@ -1,0 +1,53 @@
+body{
+    background-color: darkseagreen;
+    font-family: monospace;
+}
+.site-header{
+    background-color: rgb(66, 99, 99);
+    color: floralwhite;
+    text-align: center;
+    height: 30vh;
+}
+.site-header h1{
+    font-size: 3rem;
+    padding-top: 2rem;
+    height: 2rem;
+    margin-top: 0rem;
+}
+.site-header p{
+    font-size: 2rem;
+    height: 2vh;
+}
+h2{
+    font-size: 2rem;color: rgb(66, 99, 99);
+    text-align: center;
+}
+p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.footer-site{
+    background-color:  rgb(66, 99, 99);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.1rem;
+    margin-top: 9.2rem;
+    }
+    nav.menu{
+        background-color: var(--primary);
+        text-align: center;
+    }
+    nav.menu a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: rgb(5, 5, 5);
+        padding: 1rem;
+        margin-right: 3rem;
+    }
+    nav.menu a:hover{
+        font-size: 1.4rem;
+        color: red;
+        font-weight: bold;
+    }
